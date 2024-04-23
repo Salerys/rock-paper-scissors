@@ -33,11 +33,12 @@
   }
   
   body {
-    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/assets/images/background.jpg');
+    background: url('/assets/images/background.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
   
   .container {
@@ -179,5 +180,13 @@
   
     .symbols:hover {
       outline: 8px solid;
+    }
+    
+    .scoreboard  {
+        margin: 60px 0 40px 0;
+    }
+
+    body {
+        background-repeat: repeat;
     }
   }
