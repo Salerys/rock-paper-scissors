@@ -36,6 +36,10 @@ const rules = {
     showWinner();
   }
   
+  function showScore(score, id) {
+    if (id) document.getElementById(id).innerHTML = score;
+  }
+
   function showWinner() {
     if (userScore === 10) {
       document.getElementById('winner').innerHTML = 'You won!';
