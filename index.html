@@ -17,7 +17,7 @@
     
       <div class="scoreboard">
         <div class="result">
-          <img src="./assets/img/user.png" alt="user" />
+          <img src="./assets/images/user.png" alt="user" />
           <p id="user-score">0</p>
         </div>
   
@@ -28,10 +28,30 @@
         </div>
   
         <div class="result">
-          <img src="./assets/img/robot.png" alt="computer" />
+          <img src="./assets/images/robot.png" alt="computer" />
           <p id="computer-score">0</p>
         </div>
       </div>
+
+      <div>
+        <button class="symbols" onclick="showSymbol('rock')">
+          <img src="./assets/images/rock.png" alt="rock" />
+        </button>
+        <button class="symbols" onclick="showSymbol('paper')">
+          <img src="./assets/images/paper.png" alt="paper" />
+        </button>
+        <button class="symbols" onclick="showSymbol('scissors')">
+          <img src="./assets/images/scissors.png" alt="scissors" />
+        </button>
+        <button class="symbols" onclick="showSymbol('lizard')">
+          <img src="./assets/images/lizard.png" alt="lizard" />
+        </button>
+        <button class="symbols" onclick="showSymbol('spock')">
+          <img src="./assets/images/spock.png" alt="spock" />
+        </button>
+      </div>
+
+      <button onclick="resetGame()">Reset Game</button>
 
       <script src="./assets/js/script.js"></script>
 </body>
