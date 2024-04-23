@@ -19,10 +19,10 @@ const rules = {
     computerScore = 0;
 
   function showSymbol(humanInput) {
-    const computersChoice = choices[Math.floor(Math.random() * choices.length)];
+    const computerInput = choices[Math.floor(Math.random() * choices.length)];
     document.getElementById('user-choice').innerHTML = humanInput;
-    document.getElementById('computer-choice').innerHTML = computersChoice;
-    outcomes(humanInput, computersChoice);
+    document.getElementById('computer-choice').innerHTML = computerInput;
+    outcomes(humanInput, computerInput);
   }
 
   function outcomes(humanInput, computerInput) {
@@ -68,16 +68,4 @@ const rules = {
     disbleButtons(false);
   }
   
-  /*
-  RULES:
-  Scissors cuts paper.
-  Paper covers rock.
-  Rock crushes lizard.
-  Lizard poisons Spock.
-  Spock smashes scissors.
-  Scissors decapitates lizard.
-  Lizard eats paper.
-  Paper disproves Spock.
-  Spock vaporizes rock.
-  Rock crushes scissors.
-  */
+  

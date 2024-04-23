@@ -1,9 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --white: #f0efef;
+    --red: #a5240d;
+    --yellow: #a5820d;
+    --blue: #0d54a5;
+    --green: #2ba50d;
+    --purple: #8c0da5;
+    --grey: #b8b8b8;
+  }
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   
+  h1,
+  h3,
+  p {
+    font-family: Josefin Sans;
+    color: var(--grey);
+  }
+  
+  h1,
+  h3 {
+    text-align: center;
+  }
+  
+  p {
+    font-size: large;
+  }
+  
+  body {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/background.jpg');
+  }
+  
+  .container {
+    padding: 10px;
+    max-width: 680px;
+  }
+
   .scoreboard {
     display: flex;
   }
