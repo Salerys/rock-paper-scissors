@@ -7,14 +7,22 @@
     <title>Rock-Paper-Scissors-Lizard-Spock Game</title>
 </head>
 <body>
-    <div>
-        <label for="nameInput">Enter your name:</label>
-        <input type="text" id="nameInput" />
-        <button onclick="storeName()">Submit</button>
+    <div class="rules">
+        <p>The game ends at 10 points</p>
+        <p>Rules:</p>
+        <br />
+        <p>
+          Scissors cuts paper. <br />
+          Paper covers rock. Rock crushes lizard. <br />
+          Lizard poisons Spock. Spock smashes scissors. <br />
+          Scissors decapitates lizard. <br />
+          Lizard eats paper. <br />
+          Paper disproves Spock. <br />
+          Spock vaporizes rock. <br />
+          Rock crushes scissors.
+        </p>
       </div>
 
-      <p id="name">&#8203;</p>
-    
       <div class="scoreboard">
         <div class="result">
           <img src="./assets/images/user.png" alt="user" />
@@ -34,22 +42,26 @@
       </div>
 
       <div>
-        <button class="symbols" onclick="showSymbol('rock')">
-          <img src="./assets/images/rock.png" alt="rock" />
-        </button>
-        <button class="symbols" onclick="showSymbol('paper')">
-          <img src="./assets/images/paper.png" alt="paper" />
-        </button>
-        <button class="symbols" onclick="showSymbol('scissors')">
-          <img src="./assets/images/scissors.png" alt="scissors" />
-        </button>
-        <button class="symbols" onclick="showSymbol('lizard')">
-          <img src="./assets/images/lizard.png" alt="lizard" />
-        </button>
-        <button class="symbols" onclick="showSymbol('spock')">
-          <img src="./assets/images/spock.png" alt="spock" />
-        </button>
-      </div>
+      <button id="rock-btn" class="symbols" onclick="showSymbol('rock')">
+        <img src="./assets/images/rock.png" alt="rock" />
+      </button>
+      <button id="paper-btn" class="symbols" onclick="showSymbol('paper')">
+        <img src="./assets/images/paper.png" alt="paper" />
+      </button>
+      <button
+        id="scissors-btn"
+        class="symbols"
+        onclick="showSymbol('scissors')"
+      >
+        <img src="./assets/images/scissors.png" alt="scissors" />
+      </button>
+      <button id="lizard-btn" class="symbols" onclick="showSymbol('lizard')">
+        <img src="./assets/images/lizard.png" alt="lizard" />
+      </button>
+      <button id="spock-btn" class="symbols" onclick="showSymbol('spock')">
+        <img src="./assets/images/spock.png" alt="spock" />
+      </button>
+    </div>
 
       <button onclick="resetGame()">Reset Game</button>
 
