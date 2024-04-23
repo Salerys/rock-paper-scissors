@@ -46,13 +46,26 @@
   }
 
   .scoreboard {
+    margin: 120px 0 80px 0;
     display: flex;
+    justify-content: space-between;
+  }
+
+  .scoreboard p {
+    margin-top: 20px;
   }
 
   .show {
     display: flex;
     justify-content: space-between;
-    width: 128px;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  .game-container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
   }
   
   .result {
@@ -62,8 +75,8 @@
   }
   
   img {
-    width: 32px;
-    height: 32px;
+    width: 64px;
+    height: 64px;
   }
   
   .symbols {
@@ -71,10 +84,14 @@
     background: none;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
-    outline: 2px solid lightskyblue;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: var(--white);
+    outline: 10px solid;
   }
   
   .symbols:hover {
-    outline: 3px solid lightskyblue;
+    outline: 15px solid;
   }
+
+  
