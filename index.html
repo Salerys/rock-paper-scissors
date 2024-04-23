@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Rock-Paper-Scissors-Lizard-Spock Game</title>
+</head>
+<body>
+    <div>
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" id="nameInput" />
+        <button onclick="storeName()">Submit</button>
+      </div>
+
+      <p id="name">&#8203;</p>
+    
+      <div class="scoreboard">
+        <div class="result">
+          <img src="./assets/img/user.png" alt="user" />
+          <p id="user-score">0</p>
+        </div>
+  
+        <div class="show">
+          <p id="user-choice">&#8203;</p>
+          <h6 id="winner">&#8203;</h6>
+          <p id="computer-choice">&#8203;</p>
+        </div>
+  
+        <div class="result">
+          <img src="./assets/img/robot.png" alt="computer" />
+          <p id="computer-score">0</p>
+        </div>
+      </div>
+
+      <script src="./assets/js/script.js"></script>
+</body>
+</html>
