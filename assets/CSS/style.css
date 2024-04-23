@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../images/background.jpg');
+    background: url('/assets/images/background.jpg');
   }
   
   .container {
@@ -94,6 +94,31 @@
     outline: 15px solid;
   }
 
+  #rock-btn {
+    grid-area: rock;
+    outline-color: var(--red);
+  }
+  
+  #paper-btn {
+    grid-area: paper;
+    outline-color: var(--yellow);
+  }
+  
+  #scissors-btn {
+    grid-area: scissors;
+    outline-color: var(--blue);
+  }
+  
+  #lizard-btn {
+    grid-area: lizard;
+    outline-color: var(--green);
+  }
+  
+  #spock-btn {
+    grid-area: spock;
+    outline-color: var(--purple);
+  }
+
   .reset-btn-container {
     display: flex;
     justify-content: center;
@@ -118,4 +143,27 @@
     width: 320px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (max-width: 620px) {
+    h1 {
+      font-size: 24px;
+    }
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    .game-container {
+      display: grid;
+      justify-content: initial;
+      place-items: center;
+      grid-template-areas:
+        'rock rock paper paper scissors scissors'
+        'lizard lizard lizard spock spock spock';
+    }
+    .game-container button {
+      width: 74px;
+      height: 74px;
+      margin: 15px 0;
+    }
   }
