@@ -167,3 +167,17 @@
       margin: 15px 0;
     }
   }
+
+  @media screen and (max-width: 480px) {
+    img {
+      width: 32px;
+      height: 32px;
+    }
+    .symbols {
+      outline: 5px solid;
+    }
+  
+    .symbols:hover {
+      outline: 8px solid;
+    }
+  }
