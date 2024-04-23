@@ -65,6 +65,7 @@ const rules = {
     document.getElementById('computer-choice').innerHTML = '';
     userScore = 0;
     computerScore = 0;
+    disbleButtons(false);
   }
   
   /*
