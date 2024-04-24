@@ -17,6 +17,25 @@ const symbolButtons = [rockBtn, paperBtn, scissorsBtn, lizardBtn, spockBtn];
 
 let userScore = 0;
 let computerScore = 0;
+let nameInput;
+
+function saveName() {
+  let storeNameInput = document.getElementById('name').value;
+
+  if (storeNameInput.length > 0) {
+    document.getElementById('user-name').innerHTML = storeNameInput;
+    nameInput = storeNameInput;
+    clearInput();
+  } else {
+    document.getElementById('user-name').innerHTML = 'You';
+    nameInput = 'You';
+    clearInput();
+  }
+}
+
+function clearInput() {
+  document.getElementById('name').value = '';
+}
 
 function showSymbol(humanInput) {
   const computerInput = choices[Math.floor(Math.random() * choices.length)];
@@ -42,7 +61,9 @@ function showScore(score, id) {
 
 function showWinner() {
   if (userScore === 10) {
-    document.getElementById('winner').innerHTML = 'You won!';
+    document.getElementById('winner').innerHTML = `${
+      nameInput ? nameInput + ' won!' : 'You won!'
+    } `;
     disbleButtons(true);
   }
   if (computerScore === 10) {
@@ -66,5 +87,5 @@ function resetGame() {
   userScore = 0;
   computerScore = 0;
   disbleButtons(false);
+  clearInput();
 }
-  
