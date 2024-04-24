@@ -100,6 +100,9 @@ The site contains all necessary features of a simple, functioning RPSLS game.
     - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsalerys.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
     - ![CSS validator success image](./assets/docs/css-validator.jpg)
 
+- ### JavaScript
+    - No errors shown on the website
+
 - ### Accessibility
     - The site achieved a Lighthouse score of 99%
     - ![Lighthouse score](./assets/docs/lighthouse-test.jpg)
@@ -154,3 +157,39 @@ While this isn't how it's normally done, and the folder name should be lowercase
 - [Flaticon](https://www.flaticon.com) - Used for favicon.
 - [The Noun Project](https://thenounproject.com) - Used to get the button icons for the game
 - [Freepik](https://www.freepik.com) - Used to get the background image for the website
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The live link can be found here - [Rock-Paper-Scissors-Lizard-Spock](https://salerys.github.io/rock-paper-scissors/)
+
+## Media
+- [Freepik](https://www.freepik.com)
+  - benzoix - [Abstract Luxury gradient Blue background. Smooth Dark blue with Black vignette Studio Banner](https://www.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_16971855.htm#fromView=search&page=3&position=40&uuid=77ad8a91-e2cb-46d3-8520-4d082a9eedb3)
+- [Google fonts](https://fonts.google.com)
+  - [Josefin-sans font](https://fonts.google.com/share?selection.family=Josefin+Sans:ital,wght@0,100..700;1,100..700)
+- [Flaticon](https://www.flaticon.com)  
+    - Freepik - [Rock Paper Scissors free icon](https://www.flaticon.com/free-icon/rock-paper-scissors_6851302?term=rock+paper+scissors&page=1&position=31&origin=tag&related_id=6851302)
+    - Vector Bazar - [User free icon](https://www.flaticon.com/free-icon/user_15568014?term=human&page=1&position=74&origin=search&related_id=15568014)
+    - Kiranshastry - [Robot free icon](https://www.flaticon.com/free-icon/robot_711923?term=robot&page=1&position=18&origin=search&related_id=711923)
+- [The Noun Project](https://thenounproject.com)
+    - Till Teenck - [Lizard Hand](https://thenounproject.com/icon/lizard-hand-389091/)
+    - Studio Fibonacci - [spock](https://thenounproject.com/icon/spock-88664/)
+    - Studio Fibonacci - [rock](https://thenounproject.com/icon/rock-88661/)
+    - Studio Fibonacci - [Scissors](https://thenounproject.com/icon/scissors-88666/)
+    - Studio Fibonacci - [Paper](https://thenounproject.com/icon/paper-88662/)
+
+## Resources Used
+ - Inspiration for the README file from [Kay-ddggxh](https://github.com/Kay-ddggxh), [and their ppt2 readme](https://github.com/Kay-ddggxh/CI-PP2_memory-card-game) (thank you Kay for sharing it with me)
+
+## Acknowledgments
+- The Code Institute slack community for their quick responses and very helpful feedback
+- My real life friends Thomas and Matthew who answered all my questions whenever I got stuck in JavaScript, and gave feedback on my coding, without them I would still be searching for answers on Google
