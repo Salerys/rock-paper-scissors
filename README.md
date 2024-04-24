@@ -88,3 +88,36 @@ The site contains all necessary features of a simple, functioning RPSLS game.
 - Better button icons
 - Background music with toggle option
 - Other "gamemode goals", since currently the only one is "win 10 times"
+
+## Validator Testing
+
+- ### HTML
+    - No errors were returned when passing through the official W3C Markup Validator
+    - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsalerys.github.io%2Frock-paper-scissors%2F)
+
+- ### CSS
+    - No errors found with the official W3C CSS Validator
+    - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsalerys.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - ![CSS validator success image](./assets/docs/css-validator.jpg)
+
+- ### Accessibility
+    - The site achieved a Lighthouse score of 99%
+    - ![Lighthouse score](./assets/docs/lighthouse-test.jpg)
+
+- ### Feature Testing
+     The name input field has been tested that it shows the input name correctly, as well the five move choices, victory upon 10 win, and the reset option.
+
+- ### Browser Testing
+     The site has been tested on IE, Chrome, Firefox and Opera GX browsers without major issues.
+
+- ### Device Testing
+    The website was viewed on multiple devices to ensure responsiveness on various screen sizes. Everything performed as intended.
+    Responsiveness was also checked using Opera GX developer tools across multiple devices for the various sizes.
+
+    I also used the following websites to test responsiveness:
+    - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fsalerys.github.io%2Frock-paper-scissors%2F)
+    - [Am I Responsive](https://ui.dev/amiresponsive?url=https://salerys.github.io/rock-paper-scissors/)
+    - [AmIResponsive](https://amiresponsive.co.uk)
+
+
+    
