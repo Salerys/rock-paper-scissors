@@ -190,6 +190,6 @@ The live link can be found here - [Rock-Paper-Scissors-Lizard-Spock](https://sal
 ## Resources Used
  - Inspiration for the README file from [Kay-ddggxh](https://github.com/Kay-ddggxh), [and their ppt2 readme](https://github.com/Kay-ddggxh/CI-PP2_memory-card-game) (thank you Kay for sharing it with me)
 
-## Acknowledgments
+## Acknowledgements
 - The Code Institute slack community for their quick responses and very helpful feedback
 - My real life friends Thomas and Matthew who answered all my questions whenever I got stuck in JavaScript, and gave feedback on my coding, without them I would still be searching for answers on Google
