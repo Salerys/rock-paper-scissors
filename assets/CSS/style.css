@@ -18,7 +18,8 @@
 
 h1,
 h3,
-p {
+p,
+label {
   font-family: Josefin Sans;
   color: var(--grey);
 }
@@ -48,19 +49,26 @@ body {
   max-width: 680px;
 }
 
+.name-input {
+  margin: 40px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.name-input input {
+  margin: 0 10px;
+}
+
 .scoreboard {
   margin: 120px 0 80px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.scoreboard p {
-  margin-top: 20px;
-}
-
 .show {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 0 20px;
 }
@@ -69,6 +77,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.result img {
+  margin: 20px 0;
 }
 
 .game-container {
