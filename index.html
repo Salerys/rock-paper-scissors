@@ -11,8 +11,15 @@
       <h1>A rock-paper-scissors-lizard-spock game</h1>
       <h3>The game ends at 10 points</h3>
 
+      <div class="name-input">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" autocomplete="off" />
+        <button onclick="saveName()">Submit</button>
+      </div>
+
       <div class="scoreboard">
         <div class="result">
+          <p id="user-name">You</p>
           <img src="./assets/images/user.png" alt="user" />
           <p id="user-score">0</p>
         </div>
@@ -24,6 +31,7 @@
         </div>
 
         <div class="result">
+          <p id="computer-name">Computer</p>
           <img src="./assets/images/robot.png" alt="computer" />
           <p id="computer-score">0</p>
         </div>
