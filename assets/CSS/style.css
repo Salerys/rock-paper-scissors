@@ -33,11 +33,14 @@ p {
 }
 
 body {
-  padding-top: 20px;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../images/background.jpg');
+  background: url('../img/background.jpg') no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -56,6 +59,7 @@ body {
 }
 
 .show {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
@@ -168,6 +172,14 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+    height: 105vh;
+  }
+
+  .scoreboard {
+    margin: 60px 0 40px 0;
+  }
+
   img {
     width: 32px;
     height: 32px;
