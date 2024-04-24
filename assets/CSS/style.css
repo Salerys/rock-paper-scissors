@@ -35,7 +35,9 @@ p {
 
 body {
   width: 100%;
-  background: url('../images/background.jpg') no-repeat;
+  background-image: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .container {
