@@ -120,4 +120,37 @@ The site contains all necessary features of a simple, functioning RPSLS game.
     - [AmIResponsive](https://amiresponsive.co.uk)
 
 
-    
+## Friends and Family User Testing
+
+Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
+
+## Known Bugs
+- Creating the repository in the beginning, I named the css folder 'CSS' with all capitals. I then corrected this issue, and from that point on it was shown with lowercase 'css' in VSCode. On the live server the site showed properly, however after publishing on GitHub Pages, the site broke, the css file was not being used.
+After asking on Code Institute Slack, someone pointed out that on GitHub my folder is still named 'CSS' even though locally for me it was 'css' for a long time.
+
+- Tried renaming the folder, then creating a brand new one, no matter what I did, I couldn't rename it on GitHub, it stayed 'CSS' even after changing things and pushing.
+
+- Therefore, having no better option, I renamed the file path to the css file in my html to 'CSS', using uppercase letters, which then solved the issue.
+While this isn't how it's normally done, and the folder name should be lowercase, this is something noone involved in the discussion could solve.
+
+## Technologies Used
+- ### Languages
+- HTML5
+- CSS
+- JavaScript
+
+## Frameworks - Libraries - Programs Used
+
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+- [AmIResponsive](https://amiresponsive.co.uk) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Opera GX Dev Tools](https://dev.opera.com/extensions/testing/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Google Fonts](https://fonts.google.com) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS validation.
+- [JSHint](https://jshint.com) - Used for JavaScript validation
+- [Flaticon](https://www.flaticon.com) - Used for favicon.
+- [The Noun Project](https://thenounproject.com) - Used to get the button icons for the game
+- [Freepik](https://www.freepik.com) - Used to get the background image for the website
