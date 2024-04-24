@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock-Paper-Scissors-Lizard-Spock - just like in The Big Bang Theory!
 
-Welcome,
+This minigame was made by Salerys, for the second portfolio project at Code Institute.
+The game is played against the computer, and a round goes until someone reaches 10 points.
+Can you beat the opponent?
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The live link can be found here - [Rock-Paper-Scissors-Lizard-Spock](https://salerys.github.io/rock-paper-scissors/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![Rock-Paper-Scissors-Lizard-Spock Am I Responsive Image](./assets/docs/responsive.jpg)
 
-## Codeanywhere Reminders
+## Site Goals
+The goal of the site is to let people pass time with something light-hearted and fun, whether they are at home, on public transport, on a break during work, etc. RPSLS is a perfect game for this.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### My Goals as the Site Owner
+To give people easy access to something easy, fast and fun for when they need.
 
-`python3 -m http.server`
+### As an User, I want
+To be able to have a quick play either against "the computer", or friends without having to prepare tedious tasks, create something on my own, or bring physical games with me in my everyday life. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Imagery
+Since this is a game most people know, and even those who don't know can get quickly into it with the rules, I have decided to use a clean, not overcomplicated design.
 
-`http_server`
+### Colours
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The colour scheme of the website is blue, so it's easy on the eye and doesn't take away the attention of the player. The buttons are simplistic, as the focus of the site is the game itself.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Fonts
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The Josefin-sans font family was used throughout the whole website. I stumbled upon this font while searching for something a bit more soft and fitting to the mental image I had.
+The Josefin-sans font can be found at Google-fonts for free.
 
-To log into the Heroku toolbelt CLI:
+## Wireframes
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Wireframes were produced using Balsamiq.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<details>
 
----
+ <summary>Desktop Wireframe</summary>
 
-Happy coding!
+![Desktop Wireframe](./assets/docs/balsamiq-computer.jpg)
+ </details>
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](./assets/docs/balsamiq-phone.jpg)
+ </details>
+
+ ## Features
+
+The site contains all necessary features of a simple, functioning RPSLS game.
+
+### Existing Features
+
+- **A player name input field right under the Heading**
+    - The first thing the user sees
+    - Gives information to the user about the goal of the website
+    - Allows the user to enter their desired name
+
+    ![input](./assets/docs/name-input.jpg)
+
+
+- **Scoreboard**
+    - Located below the name input field
+    - Shows the user the moves they used, as well as the opponent's chosen move
+    - Shows the current score under the user/cpu icon
+    - Announces the winner upon either side reaching 10 wins
+
+    ![scoreboard](./assets/docs/scoreboard.jpg)
+
+
+**Game buttons**
+- The five moves available in RPSLS
+- Allows the user to freely choose their next move
+- The reset game button allows the user to start anew anytime
+
+    ![intro section](./assets/docs/game-buttons.jpg)
+
+**Rules**
+- The official rules to RPSLS
+
+    ![intro section](./assets/docs/rules.jpg)
+
+### Planned future features
+- Online multiplayer, allowing the user to play against other people
+- Adding background animation
+- Better button icons
+- Background music with toggle option
+- Other "gamemode goals", since currently the only one is "win 10 times"
