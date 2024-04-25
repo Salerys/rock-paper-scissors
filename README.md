@@ -101,7 +101,7 @@ The site contains all necessary features of a simple, functioning RPSLS game.
     - ![CSS validator success image](./assets/docs/css-validator.jpg)
 
 - ### JavaScript
-    - No errors shown on the website
+    - No errors shown on [JSHint website](https://jshint.com)
 
 - ### Accessibility
     - The site achieved a Lighthouse score of 99%
